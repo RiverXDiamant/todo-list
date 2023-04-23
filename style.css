@@ -35,3 +35,9 @@ body {
   padding: 3px;
   border-radius: 3px;
 }
+
+/* Form Validation */
+
+#msg {
+  color: red;
+}
