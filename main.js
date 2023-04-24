@@ -7,7 +7,7 @@ let msg = document.getElementById("msg");
 let tasks = document.getElementById("tasks");
 let add = document.getElementById("add");
 
-//  Form Validation
+//  Form Validation for input fields
 // prevents user from submitting blank input fields
 
 form.addEventListener("submit", (e) => {
