@@ -22,5 +22,31 @@ let formValidation = () => {
   } else {
     console.log("success");
     msg.innerHTML = "";
+
+    acceptData();
+
+    // Function that closes the modal automatically
+    add.setAttribute("data-bs-dismiss", "modal");
+    add.click();
+
+    (() => {
+      add.setAttribute("data-bs-dismiss", "");
+    })();
   }
+};
+
+//  Data collection using local storage
+
+let data = [];
+
+let acceptData = () => {
+  data.push({
+    text: textInput.value,
+    date: dateInput.value,
+    description: textarea.value,
+  });
+
+  localStorage.setItem("data", JSON.stringify(data));
+
+  console.log(data);
 };
