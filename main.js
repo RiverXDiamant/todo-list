@@ -73,3 +73,12 @@ let createTasks = () => {
 
   resetForm();
 };
+
+// Reset Form
+// - after collecting and accepting data from the user; clears the input fields
+
+let resetForm = () => {
+  textInput.value = "";
+  dateInput.value = "";
+  textarea.value = "";
+};
