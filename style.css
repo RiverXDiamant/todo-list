@@ -41,3 +41,20 @@ body {
 #msg {
   color: red;
 }
+
+/* Tasks */
+
+#tasks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+#tasks div {
+  border: 3px solid #abcea1;
+  background-color: #e2eede;
+  border-radius: 6px;
+  padding: 5px;
+  display: grid;
+  gap: 4px;
+}
