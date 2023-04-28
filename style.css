@@ -58,3 +58,15 @@ body {
   display: grid;
   gap: 4px;
 }
+
+/* Buttons: Edit and Delete */
+
+#tasks div .options {
+  justify-self: center;
+  display: flex;
+  gap: 20px;
+}
+
+#tasks div .options i {
+  cursor: pointer;
+}
