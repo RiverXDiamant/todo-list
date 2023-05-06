@@ -95,7 +95,7 @@ let deleteTask = (e) => {
   console.log(data);
 };
 
-// Edit tasks
+// Edit task function
 
 let editTask = (e) => {
   let selectedTask = e.parentElement.parentElement;
